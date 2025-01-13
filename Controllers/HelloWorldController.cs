@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace HerediaJ_C_2_All4OneAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class HelloWorldController : ControllerBase
     {
         
