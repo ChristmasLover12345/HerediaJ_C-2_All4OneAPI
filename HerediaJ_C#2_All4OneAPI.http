@@ -1,0 +1,6 @@
+@HerediaJ_C_2_All4OneAPI_HostAddress = http://localhost:5122
+
+GET {{HerediaJ_C_2_All4OneAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
