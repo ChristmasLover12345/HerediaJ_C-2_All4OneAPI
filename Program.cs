@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<HelloWorldService>();
 builder.Services.AddScoped<AskingQuestionsService>();
 builder.Services.AddScoped<AddingTwoService>();
+builder.Services.AddScoped<MadLibServices>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
