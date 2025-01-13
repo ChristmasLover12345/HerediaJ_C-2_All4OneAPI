@@ -12,6 +12,7 @@ builder.Services.AddScoped<ReverseItAlphaService>();
 builder.Services.AddScoped<ReverseItNumbersService>();
 builder.Services.AddScoped<Magic8BallService>();
 builder.Services.AddScoped<GuessItService>();
+builder.Services.AddScoped<RestaurantPickerService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
