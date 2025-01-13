@@ -9,6 +9,7 @@ builder.Services.AddScoped<AddingTwoService>();
 builder.Services.AddScoped<MadLibServices>();
 builder.Services.AddScoped<OddOrEvenService>();
 builder.Services.AddScoped<ReverseItAlphaService>();
+builder.Services.AddScoped<ReverseItNumbersService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
