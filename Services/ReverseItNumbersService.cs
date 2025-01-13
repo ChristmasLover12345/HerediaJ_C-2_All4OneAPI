@@ -10,6 +10,10 @@ namespace HerediaJ_C_2_All4OneAPI.Services
         
         public string ReverseNumbers(string number)
         {
+
+            if (number.Trim() == "")
+            {return "Type something dude";}
+
             char[] charArray = number.ToCharArray();
 
             for (int i = 0; i < charArray.Length; i++)
